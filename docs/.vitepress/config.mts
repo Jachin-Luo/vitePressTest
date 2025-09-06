@@ -10,7 +10,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'test', link: '/test' },
       {
         text: "资料分析",
         items: [
@@ -42,20 +41,59 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "判断推理",
+        items: [
+          {
+            items: [
+              { text: "判断20250714", link: "/判断推理/判断20250714" },
+              { text: "判断20250715", link: "/判断推理/判断20250715" },
+              { text: "判断20250716", link: "/判断推理/判断20250716" },
+              { text: "判断20250717", link: "/判断推理/判断20250717" },
+              { text: "判断20250718", link: "/判断推理/判断20250718" },
+
+              { text: "判断20250720", link: "/判断推理/判断20250720" },
+              { text: "判断20250721", link: "/判断推理/判断20250721" },
+              { text: "判断20250722", link: "/判断推理/判断20250722" },
+              { text: "判断20250723", link: "/判断推理/判断20250723" },
+              { text: "判断20250724", link: "/判断推理/判断20250724" },
+
+              { text: "判断20250726", link: "/判断推理/判断20250726" },
+              { text: "判断20250803", link: "/判断推理/判断20250803" },
+            ],
+          },
+          {
+            items: [
+              { text: "判断刷题20250731", link: "/判断推理/判断刷题20250731" },
+              { text: "判断刷题20250803", link: "/判断推理/判断刷题20250803" },
+             
+            ],
+          },
+          {
+            items: [
+              { text: "图推20250728", link: "/判断推理/图推20250728" },
+              { text: "图推20250729", link: "/判断推理/图推20250729" },
+              { text: "图推20250730", link: "/判断推理/图推20250730" },
+              { text: "图推20250731", link: "/判断推理/图推20250731" },
+             
+            ],
+          },
+        ],
+      },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/api-examples' }
+    //     ]
+    //   }
+    // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Jachin-Luo/vitePressTest' }
     ]
   }
 })
