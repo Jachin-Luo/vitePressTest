@@ -80,6 +80,7 @@ export default defineConfig({
           },
         ],
       },
+      { text: '综合应用', link: '/综合应用/天晓综应A' },
     ],
 
     // sidebar: [
