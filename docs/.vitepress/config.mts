@@ -82,6 +82,7 @@ export default defineConfig({
 				items: [
 					{ text: '各名师总结', link: '/综合应用/各名师总结' },
 					{ text: '天晓综应A', link: '/综合应用/天晓综应A' },
+					{ text: '规范词表达', link: '/综合应用/规范词表达' },
 				],
 			},
 		],
