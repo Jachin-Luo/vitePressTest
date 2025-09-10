@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 	title: 'Jachin Personal Blog',
 	description: 'Jachin Personal Blog',
+	lang: 'zh-CN',
 	lastUpdated: true,
 	search: {
 		provider: 'local',
