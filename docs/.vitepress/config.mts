@@ -4,6 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 	title: 'Jachin Personal Blog',
 	description: 'Jachin Personal Blog',
+	lastUpdated: true,
+	 search: {
+      provider: 'local'
+    },
 	themeConfig: {
 		outline: [1, 6], // 只显示 h2 和 h3 标题
 		// https://vitepress.dev/reference/default-theme-config
@@ -38,6 +42,7 @@ export default defineConfig({
 							{ text: '资料刷题20250724', link: '/资料分析/资料刷题20250724' },
 						],
 					},
+					
 				],
 			},
 			{
@@ -59,12 +64,18 @@ export default defineConfig({
 
 							{ text: '判断20250726', link: '/判断推理/判断20250726' },
 							{ text: '判断20250803', link: '/判断推理/判断20250803' },
+							{ text: '判断20250804', link: '/判断推理/判断20250804' },
 						],
 					},
 					{
 						items: [
 							{ text: '判断刷题20250731', link: '/判断推理/判断刷题20250731' },
 							{ text: '判断刷题20250803', link: '/判断推理/判断刷题20250803' },
+							{ text: '判断刷题20250804', link: '/判断推理/判断刷题20250804' },
+							{ text: '判断刷题20250805', link: '/判断推理/判断刷题20250805' },
+							{ text: '判断刷题20250807', link: '/判断推理/判断刷题20250807' },
+							{ text: '判断刷题20250808', link: '/判断推理/判断刷题20250808' },
+							{ text: '判断刷题20250810', link: '/判断推理/判断刷题20250810' },
 						],
 					},
 					{
@@ -73,6 +84,23 @@ export default defineConfig({
 							{ text: '图推20250729', link: '/判断推理/图推20250729' },
 							{ text: '图推20250730', link: '/判断推理/图推20250730' },
 							{ text: '图推20250731', link: '/判断推理/图推20250731' },
+							{ text: '图推20250804', link: '/判断推理/图推20250804' },
+						],
+					},
+					{
+						items: [
+							{ text: '定义20250805', link: '/判断推理/定义20250805' },
+							{ text: '定义20250806', link: '/判断推理/定义20250806' },
+						],
+					},
+					{
+						items: [
+							{ text: '类比20250807', link: '/判断推理/类比20250807' },
+						],
+					},
+					{
+						items: [
+							{ text: '图推类比总结20250809', link: '/判断推理/图推类比总结20250809' },
 						],
 					},
 				],
