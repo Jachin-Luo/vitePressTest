@@ -5,15 +5,24 @@ export default defineConfig({
 	title: 'Jachin Personal Blog',
 	description: 'Jachin Personal Blog',
 	lastUpdated: true,
-	 search: {
-      provider: 'local'
-    },
+	search: {
+		provider: 'local',
+	},
 	themeConfig: {
 		outline: [1, 6], // 只显示 h2 和 h3 标题
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Examples', link: '/markdown-examples' },
+			{
+				text: '思维导图',
+				items: [
+					{ text: '总览', link: '/思维导图/总览' },
+					{ text:'言语理解' , link: '/思维导图/言语理解' },
+					{ text: '判断推理', link: '/思维导图/判断推理' },
+					{ text: '资料分析', link: '/思维导图/资料分析' }
+				],
+			},
 			{
 				text: '资料分析',
 				items: [
@@ -42,7 +51,6 @@ export default defineConfig({
 							{ text: '资料刷题20250724', link: '/资料分析/资料刷题20250724' },
 						],
 					},
-					
 				],
 			},
 			{
@@ -94,14 +102,10 @@ export default defineConfig({
 						],
 					},
 					{
-						items: [
-							{ text: '类比20250807', link: '/判断推理/类比20250807' },
-						],
+						items: [{ text: '类比20250807', link: '/判断推理/类比20250807' }],
 					},
 					{
-						items: [
-							{ text: '图推类比总结20250809', link: '/判断推理/图推类比总结20250809' },
-						],
+						items: [{ text: '图推类比总结20250809', link: '/判断推理/图推类比总结20250809' }],
 					},
 				],
 			},
