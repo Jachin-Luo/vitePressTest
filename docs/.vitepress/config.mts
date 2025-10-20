@@ -118,6 +118,13 @@ export default defineConfig({
 					{ text: '规范词表达', link: '/综合应用/规范词表达' },
 				],
 			},
+			{
+				text: '申论',
+				items: [
+					{ text: '申论', link: '/申论/多省联考申论——小马哥' },
+					{ text: '申论', link: '/申论/国考申论刷题本2014-2025——公考小马哥' },
+				],
+			}
 		],
 
 		// sidebar: [
