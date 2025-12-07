@@ -6,3 +6,8 @@ node_modules/
 
 # 忽略 dist 目录
 dist/
+
+# 忽略obsidian
+
+docs/.obsidian/workspace.json
+docs/.obsidian/workspace-mobile.json
