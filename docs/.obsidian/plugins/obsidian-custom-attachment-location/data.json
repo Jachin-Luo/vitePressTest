@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "public/${noteFileName}",
-  "attachmentRenameMode": "All",
+  "attachmentRenameMode": "Only pasted images",
   "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "collectedAttachmentFileName": "",
   "customTokensStr": "",

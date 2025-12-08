@@ -1,7 +1,8 @@
 {
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
-  "attachmentFolderPath": "public",
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "附件",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root"
 }

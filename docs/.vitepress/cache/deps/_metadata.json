@@ -1,31 +1,43 @@
 {
-  "hash": "0ea5e17b",
-  "configHash": "562c38dd",
-  "lockfileHash": "2ac303c1",
-  "browserHash": "5704633a",
+  "hash": "5a527546",
+  "configHash": "a5a8b5dd",
+  "lockfileHash": "f9d8b8d5",
+  "browserHash": "7a7b8587",
   "optimized": {
     "vue": {
-      "src": "../../../../node_modules/.pnpm/vue@3.5.21/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.5.21_typescript@5.9.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "ce000233",
+      "fileHash": "17055b87",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@8.0.1/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "e5c9e1bf",
+      "fileHash": "c3f96d1f",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@13.9.0_vue@3.5.21/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "c5254914",
+      "fileHash": "c75452bb",
+      "needsInterop": false
+    },
+    "vitepress-markmap-preview/component": {
+      "src": "../../../../node_modules/.pnpm/vitepress-markmap-preview@0.2.0_markmap-common@0.18.9_typescript@5.9.3/node_modules/vitepress-markmap-preview/dist/component.js",
+      "file": "vitepress-markmap-preview_component.js",
+      "fileHash": "1d36771b",
+      "needsInterop": false
+    },
+    "medium-zoom": {
+      "src": "../../../../node_modules/.pnpm/medium-zoom@1.1.0/node_modules/medium-zoom/dist/medium-zoom.esm.js",
+      "file": "medium-zoom.js",
+      "fileHash": "651e9a70",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-5LXQXFDS": {
-      "file": "chunk-5LXQXFDS.js"
+    "chunk-TIM6QRJN": {
+      "file": "chunk-TIM6QRJN.js"
     }
   }
 }

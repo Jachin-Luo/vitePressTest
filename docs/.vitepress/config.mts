@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
 import markdownItKatex from 'markdown-it-katex'
+
+import { vitepressMarkmapPreview } from 'vitepress-markmap-preview'
+import { generateSidebar } from 'vitepress-sidebar'
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
 	title: 'Jachin Personal Blog',
 	description: 'Jachin Personal Blog',
@@ -589,6 +593,7 @@ export default defineConfig({
 		},
 		config: (md) => {
 			md.use(markdownItKatex)
+			vitepressMarkmapPreview(md)
 		},
 		head: [
 			[
@@ -599,7 +604,7 @@ export default defineConfig({
 				},
 			],
 		],
-		// math: true,
+		math: true,
 		// 注册 markdown-it 插件
 	},
 })
