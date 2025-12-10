@@ -1,0 +1,10 @@
+{
+  "obsidian-image-auto-upload-plugin:Upload all images": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ]
+}

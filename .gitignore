@@ -8,6 +8,9 @@ node_modules/
 dist/
 
 # 忽略obsidian
-
 docs/.obsidian/workspace.json
 docs/.obsidian/workspace-mobile.json
+
+
+#忽略备份图片
+backups/
