@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import markdownItKatex from 'markdown-it-katex'
+import mathjax3 from 'markdown-it-mathjax3'
 
 import { vitepressMarkmapPreview } from 'vitepress-markmap-preview'
 import { generateSidebar } from 'vitepress-sidebar'
@@ -618,19 +618,10 @@ export default defineConfig({
 			lazyLoading: true,
 		},
 		config: (md) => {
-			md.use(markdownItKatex)
+			md.use(mathjax3)
 			vitepressMarkmapPreview(md)
 		},
-		head: [
-			[
-				'link',
-				{
-					rel: 'stylesheet',
-					href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
-				},
-			],
-		],
-		math: true,
+
 		// 注册 markdown-it 插件
 	},
 })

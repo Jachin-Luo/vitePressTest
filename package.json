@@ -10,9 +10,7 @@
 		"docs:preview": "vitepress preview docs"
 	},
 	"dependencies": {
-		"katex": "^0.16.25",
-		"markdown-it-katex": "^2.0.3",
-		"markdown-it-mathjax3": "^5.2.0",
+		"markdown-it-mathjax3": "^4.3.2",
 		"vitepress-markmap-preview": "^0.2.0"
 	}
 }
