@@ -55,3 +55,11 @@ export default defineConfig({
 	},
 })
 ```
+
+### 3.自动侧边栏
+
+快速开始
+https://vitepress-sidebar.cdget.com/zhHans/guide/getting-started
+
+配置项说明
+https://vitepress-sidebar.cdget.com/zhHans/guide/options
